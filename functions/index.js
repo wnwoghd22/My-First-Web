@@ -8,8 +8,8 @@ const functions = require('firebase-functions');
 // });
 
 const admin = require('firebase-admin');
-debug.log(functions.config());
-admin.initializeApp(functions.config().firebase);
+admin.initializeApp({databaseURL:`https://my-first-webapp-jaehong-default-rtdb.firebaseio.com/`});
+//admin.initializeApp(functions.config().firebase);
 
 const express = require('express');
 const { log, debug } = require('firebase-functions/lib/logger');
