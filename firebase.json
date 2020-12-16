@@ -6,5 +6,16 @@
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  "emulators": {
+    "functions": {
+      "port": 5000
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "ui": {
+      "enabled": true
+    }
   }
 }
